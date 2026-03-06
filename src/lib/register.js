@@ -1,8 +1,9 @@
-require("dotenv").config();
 const { COMMANDS } = require("./commands");
 
 const BASE = "https://discord.com/api/v10";
-const { DISCORD_BOT_TOKEN, DISCORD_APPLICATION_ID, DISCORD_GUILD_ID } = process.env;
+const DISCORD_BOT_TOKEN = "your_bot_token_here";
+const DISCORD_APPLICATION_ID = "your_application_id_here";
+const DISCORD_GUILD_ID = "your_guild_id_here";
 
 async function register() {
   const url = DISCORD_GUILD_ID
