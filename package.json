@@ -1,0 +1,19 @@
+{
+  "name": "roast-bot",
+  "version": "1.0.0",
+  "description": "Discord HTTP Interactions Roast Battle Bot",
+  "main": "api/interactions.js",
+  "scripts": {
+    "register": "node src/lib/register.js",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "discord-interactions": "^3.4.0",
+    "node-fetch": "^3.3.2",
+    "tweetnacl": "^1.0.3"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
